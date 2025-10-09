@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenidad Spa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="SCSS/style.css">
+</head>
+<body>
+    <div class="wave-bg">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Serenidad<span>Spa</span></a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                    <li><a href="#nosotros" class="nav-link">Sobre Nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="menu-overlay"></div>
+        <div class="mobile-nav">
+            <ul class="mobile-nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="main" id="inicio">
+        <div class="container main-container">
+            <div class="main-content">
+                <h1 class="main-title">Relájate y Renueva tu Energía</h1>
+                <p class="main-subtitle">Descubre el poder transformador de nuestros masajes terapéuticos y tratamientos especializados diseñados para revitalizar cuerpo y mente.</p>
+                <a href="#servicios" class="btn">Ver Servicios</a>
+            </div>
+            <div class="main-image-desktop">
+                </div>
+        </div>
+    </section>
+
+    <section class="section services" id="servicios">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card" style="--delay: 1">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Masaje Relajante</h3>
+                        <p class="service-description">Un masaje suave y rítmico que alivia la tensión muscular, reduce el estrés y promueve la relajación profunda.</p>
+                        <p class="service-price">$60 / 60 min</p>
+                    </div>
+                </div>
+                <div class="service-card" style="--delay: 2">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Masaje Terapéutico</h3>
+                        <p class="service-description">Enfocado en áreas específicas de dolor o tensión, este masaje ayuda a restaurar la función muscular y aliviar el dolor.</p>
+                        <p class="service-price">$75 / 60 min</p>
+                    </div>
+                </div>
+                <div class="service-card" style="--delay: 3">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Aromaterapia</h3>
+                        <p class="service-description">Combina masajes suaves con aceites esenciales para estimular los sentidos y promover el bienestar emocional.</p>
+                        <p class="service-price">$85 / 75 min</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section testimonials" id="testimonios">
+        <div class="container">
+            <h2 class="section-title">Lo que Dicen Nuestros Clientes</h2>
+            <div class="slider-wrapper">
+                <div class="slider-container" id="testimonial-slider">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">"Increíble experiencia. El masaje con piedras calientes me ayudó con mis dolores crónicos de espalda. El personal es muy profesional y el ambiente es relajante."</p>
+                        <div class="rating">
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Roberto Sánchez</h4>
+                                <p>Cliente desde 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">"La aromaterapia superó todas mis expectativas. Los aceites esenciales crearon una atmósfera mágica y el masaje fue tan relajante que casi me duermo cada vez."</p>
+                        <div class="rating">
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Elena Morales</h4>
+                                <p>Cliente frecuente</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">"Como atleta profesional, necesito mantenerme en óptimas condiciones. El masaje deportivo de Serenidad Spa es fundamental en mi rutina de entrenamiento."</p>
+                        <div class="rating">
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                            <span class="star"><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>David Torres</h4>
+                                <p>Atleta olímpico</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section about" id="nosotros">
+        <div class="container">
+            <h2 class="section-title">Nuestro Equipo</h2>
+            <div class="team-grid">
+                <div class="team-member" style="--delay: 1">
+                    <div class="member-photo">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3 class="member-name">Laura Méndez</h3>
+                    <p class="member-role">Directora y Masajista Principal</p>
+                </div>
+                <div class="team-member" style="--delay: 2">
+                    <div class="member-photo">
+                        <i class="fas fa-user-nurse"></i>
+                    </div>
+                    <h3 class="member-name">Javier López</h3>
+                    <p class="member-role">Especialista en Masaje Deportivo</p>
+                </div>
+                <div class="team-member" style="--delay: 3">
+                    <div class="member-photo">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3 class="member-name">Sofía Ramírez</h3>
+                    <p class="member-role">Terapeuta de Relajación</p>
+                </div>
+                <div class="team-member" style="--delay: 4">
+                    <div class="member-photo">
+                        <i class="fas fa-hand-holding-water"></i>
+                    </div>
+                    <h3 class="member-name">Miguel Ángel Torres</h3>
+                    <p class="member-role">Especialista en Técnicas Orientales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#nosotros">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Síguenos</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Serenidad Spa. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Javascript/script.js"></script>
+</body>
+</html>
