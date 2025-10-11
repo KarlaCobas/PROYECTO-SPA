@@ -32,6 +32,7 @@
                 <span></span>
             </div>
         </div>
+        <!-- Menú móvil -->
         <div class="menu-overlay"></div>
         <div class="mobile-nav">
             <ul class="mobile-nav-links">
@@ -47,7 +48,7 @@
         <div class="container main-container">
             <div class="main-content">
                 <h1 class="main-title">Relájate y Renueva tu Energía</h1>
-                <p class="main-subtitle">Descubre el poder transformador de nuestros masajes terapéuticos y tratamientos especializados diseñados para revitalizar cuerpo y mente.</p>
+                <p class="main-subtitle">Descubre el poder transformador de nuestros masajes terapéuticos</p>
                 <a href="#servicios" class="btn">Ver Servicios</a>
             </div>
             <div class="main-image-desktop">
@@ -59,35 +60,53 @@
         <div class="container">
             <h2 class="section-title">Nuestros Servicios</h2>
             <div class="services-grid">
-                <div class="service-card" style="--delay: 1">
-                    <div class="service-icon">
-                        <i class="fas fa-spa"></i>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-hand-sparkles"></i>
                     </div>
-                    <div class="service-content">
-                        <h3 class="service-title">Masaje Relajante</h3>
-                        <p class="service-description">Un masaje suave y rítmico que alivia la tensión muscular, reduce el estrés y promueve la relajación profunda.</p>
-                        <p class="service-price">$60 / 60 min</p>
-                    </div>
+                    <h3>Masajes Terapéuticos</h3>
+                    <p>Libera tensiones con nuestros masajes personalizados que combinan técnicas ancestrales y modernas.</p>
+                    <div class="card-accent"></div>
                 </div>
-                <div class="service-card" style="--delay: 2">
-                    <div class="service-icon">
-                        <i class="fas fa-hand-holding-heart"></i>
-                    </div>
-                    <div class="service-content">
-                        <h3 class="service-title">Masaje Terapéutico</h3>
-                        <p class="service-description">Enfocado en áreas específicas de dolor o tensión, este masaje ayuda a restaurar la función muscular y aliviar el dolor.</p>
-                        <p class="service-price">$75 / 60 min</p>
-                    </div>
-                </div>
-                <div class="service-card" style="--delay: 3">
-                    <div class="service-icon">
+                <div class="service-card">
+                    <div class="card-icon">
                         <i class="fas fa-leaf"></i>
                     </div>
-                    <div class="service-content">
-                        <h3 class="service-title">Aromaterapia</h3>
-                        <p class="service-description">Combina masajes suaves con aceites esenciales para estimular los sentidos y promover el bienestar emocional.</p>
-                        <p class="service-price">$85 / 75 min</p>
+                    <h3>Tratamientos Faciales</h3>
+                    <p>Rejuvenece tu piel con productos naturales y técnicas avanzadas de cuidado facial.</p>
+                    <div class="card-accent"></div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-hot-tub"></i>
                     </div>
+                    <h3>Hidroterapia</h3>
+                    <p>Experimenta los beneficios curativos del agua en nuestras piscinas termales y jacuzzis.</p>
+                    <div class="card-accent"></div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-om"></i>
+                    </div>
+                    <h3>Yoga & Meditación</h3>
+                    <p>Encuentra tu equilibrio interior con nuestras sesiones guiadas de yoga y meditación.</p>
+                    <div class="card-accent"></div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Aromaterapia</h3>
+                    <p>Relájate con aceites esenciales naturales que calman la mente y revitalizan el cuerpo.</p>
+                    <div class="card-accent"></div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Paquetes Premium</h3>
+                    <p>Experiencias completas que combinan múltiples servicios para tu máximo bienestar.</p>
+                    <div class="card-accent"></div>
                 </div>
             </div>
         </div>
@@ -95,76 +114,66 @@
 
     <section class="section testimonials" id="testimonios">
         <div class="container">
-            <h2 class="section-title">Lo que Dicen Nuestros Clientes</h2>
-            <div class="slider-wrapper">
-                <div class="slider-container" id="testimonial-slider">
-                    <div class="testimonial-card">
-                        <div class="quote-icon">
-                            <i class="fas fa-quote-left"></i>
-                        </div>
-                        <p class="testimonial-text">"Increíble experiencia. El masaje con piedras calientes me ayudó con mis dolores crónicos de espalda. El personal es muy profesional y el ambiente es relajante."</p>
-                        <div class="rating">
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                        </div>
-                        <div class="testimonial-author">
-                            <div class="author-avatar">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div class="author-info">
-                                <h4>Roberto Sánchez</h4>
-                                <p>Cliente desde 2022</p>
-                            </div>
-                        </div>
+            <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
                     </div>
-                    <div class="testimonial-card">
-                        <div class="quote-icon">
-                            <i class="fas fa-quote-left"></i>
-                        </div>
-                        <p class="testimonial-text">"La aromaterapia superó todas mis expectativas. Los aceites esenciales crearon una atmósfera mágica y el masaje fue tan relajante que casi me duermo cada vez."</p>
-                        <div class="rating">
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                        </div>
-                        <div class="testimonial-author">
-                            <div class="author-avatar">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div class="author-info">
-                                <h4>Elena Morales</h4>
-                                <p>Cliente frecuente</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-card">
-                        <div class="quote-icon">
-                            <i class="fas fa-quote-left"></i>
-                        </div>
-                        <p class="testimonial-text">"Como atleta profesional, necesito mantenerme en óptimas condiciones. El masaje deportivo de Serenidad Spa es fundamental en mi rutina de entrenamiento."</p>
-                        <div class="rating">
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                            <span class="star"><i class="fas fa-star"></i></span>
-                        </div>
-                        <div class="testimonial-author">
-                            <div class="author-avatar">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div class="author-info">
-                                <h4>David Torres</h4>
-                                <p>Atleta olímpico</p>
-                            </div>
+                    <p class="testimonial-text">"Una experiencia transformadora. El masaje de piedras calientes fue exactamente lo que necesitaba después de semanas de estrés. El ambiente es simplemente perfecto."</p>
+                    <div class="testimonial-author">
+                        <img src="assets/testimonio1.webp" alt="María García">
+                        <div>
+                            <h4>María García</h4>
+                            <span>Cliente Regular</span>
                         </div>
                     </div>
                 </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"El tratamiento facial superó todas mis expectativas. Mi piel nunca se había sentido tan radiante. El personal es extremadamente profesional y atento."</p>
+                    <div class="testimonial-author">
+                        <img src="assets/testimonio2.jpg" alt="Carlos Rodríguez">
+                        <div>
+                            <h4>Carlos Rodríguez</h4>
+                            <span>Cliente Satisfecho</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"Las sesiones de yoga han cambiado mi vida. Encontré paz interior y equilibrio. Este lugar es un verdadero oasis en medio de la ciudad."</p>
+                    <div class="testimonial-author">
+                        <img src="assets/testimonio3.webp" alt="Ana Martínez">
+                        <div>
+                            <h4>Ana Martínez</h4>
+                            <span>Entusiasta del Yoga</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"El paquete premium fue el mejor regalo que me he dado. Cada detalle está cuidado con esmero. Salí sintiéndome completamente renovado."</p>
+                    <div class="testimonial-author">
+                        <img src="assets/testimonio4.jpg" alt="Luis Fernández">
+                        <div>
+                            <h4>Luis Fernández</h4>
+                            <span>Cliente VIP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-nav">
+                <button class="nav-dot active" data-index="0"></button>
+                <button class="nav-dot" data-index="1"></button>
+                <button class="nav-dot" data-index="2"></button>
+                <button class="nav-dot" data-index="3"></button>
             </div>
         </div>
     </section>
@@ -208,23 +217,22 @@
     <footer id="contacto">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Enlaces Rápidos</h3>
-                    <ul class="footer-links">
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="#testimonios">Testimonios</a></li>
-                        <li><a href="#nosotros">Sobre Nosotros</a></li>
-                    </ul>
+                <div class="footer-logo">
+                    <i class="fas fa-spa"></i>
+                    <span>Serenidad Spa</span>
                 </div>
-
-                <div class="footer-column">
-                    <h3>Síguenos</h3>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
+            </div>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#nosotros">Sobre Nosotros</a>
             </div>
             <div class="copyright">
                 <p>&copy; 2025 Serenidad Spa. Todos los derechos reservados.</p>
